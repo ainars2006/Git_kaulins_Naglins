@@ -8,9 +8,11 @@ public class Kaulins {
 		for(int i = 0; i<reizes; i++) {
 			skaitlis = rand.nextInt(6)+1;
 			System.out.println("Uzkrita skaitlis: "+skaitlis);
-			if(skaitlis==6 || skaitlis==1) {
+			if(skaitlis==6) {
 				System.out.println("Jackpot\nBonus metines");
 				reizes=reizes+1;
+			}else if(skaitlis==1){
+				System.out.println("Tu pakas");
 			}
 		}
 	}
