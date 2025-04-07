@@ -8,6 +8,10 @@ public class Kaulins {
 		for(int i = 0; i<reizes; i++) {
 			skaitlis = rand.nextInt(6)+1;
 			System.out.println("Uzkrita skaitlis: "+skaitlis);
+			if(skaitlis==6 || skaitlis==1) {
+				System.out.println("Jackpot\nBonus metines");
+				reizes=reizes+1;
+			}
 		}
 	}
 	public static void main(String[] args) {
@@ -19,6 +23,6 @@ public class Kaulins {
 		}while(reizes<1);
 		scan.close();
 		mestKaulinu(reizes);
-
+		
 	}
 }
