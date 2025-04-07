@@ -17,7 +17,7 @@
 - [x] uzsākt lokālā projekta versionēšanu ar Git
 - [x] Izveidot Github kontu
 - [x] Lokālā projekta izvietošana GitHub
-- [ ] Papildināt lokālā projekta versiju
+- [x] Papildināt lokālā projekta versiju
 - [ ] Projektam piesaistīts vēl viens programmētājs
 - [ ] Novērsti issues iesniegumi
 - [ ] Izveidot jaunu zaru un sapludināt to ar master
